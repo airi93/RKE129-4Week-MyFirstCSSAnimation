@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: burlywood;
+    overflow: hidden;
+}
+
+.img{
+    margin-left: 30rem;
+}
+
+.ingredients{
+    border: 1px solid red;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 30px;
+   
+}
+
+.ingredients-table{
+    border: 1px solid green;
+    margin-left: 20rem;
+   
+
+}
+
+.Ingredient{
+    position: relative;
+    animation: Ing;
+    font-family: 'Roboto', sans-serif;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    margin-top: 32px;
+    text-align: Ing;
+
+}
+
+@keyframes Ing{
+    0% {top: -200px}
+    85% {top: 0px}
+    100% {left: 0}
+
+}
+
+
+.Amount{
+    position: relative;
+    animation: Amount;
+   font-family: 'Roboto', sans-serif;
+   animation-duration: 5s;
+   animation-timing-function: ease-in-out;
+   margin-top: 32px;
+   text-align: Amount;
+}
+
+@keyframes Amount {
+    0% {top: -200px}
+    85% {top: 0px}
+    100% {left: 0}
+}
+#red{
+    color: red;
+}
+#blue
+{
+    color: blue;
+}
+#green{
+    color: green;
+}
+.Instructions{
+    border: 1px solid brown;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.Instructions-list{
+    border: 1px solid blue;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.footer{
+    color: blueviolet;
+    margin-left: 40rem;
+    opacity: 0;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    animation: footer;
+    animation-duration: 5s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes footer {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
